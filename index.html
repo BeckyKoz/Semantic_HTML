@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" lang="en-US">
+        <title>Becky's Semantic HTML Cheat Sheet</title>
+        <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+        <link href="./styles.css" type="text/css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Dosis&family=Nanum+Myeongjo:wght@400;700&family=Raleway:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Becky's Semantic HTML Cheat Sheet</h1>
+            <cite>Adapted from <a href="https://learn-the-web.algonquindesign.ca/topics/html-semantics-cheat-sheet">Learn the Web</a></cite>
+            <nav>
+                <ul>
+                    <li>Helpful Resources</li>
+                    <li>Other Cheatsheets</li>
+                    <li>Contact Becky</li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <section>
+                <article class="document">
+                    <h2>Document Tags</h2> 
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Tag</td>
+                                <td>Name</td>
+                                <!-- <td>Requires</td> -->
+                                <td>Description</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="code">&lt;head&gt;</span></td>
+                                <td>Head</td>
+                                <!-- <td></td> -->
+                                <td>Metadata about website</td>
+                            </tr>
+                            <tr>
+                                <td><span class="code">&lt;body&gt;</span></td>
+                                <td>Body</td>
+                                <!-- <td></td> -->
+                                <td>Body of Website</td>
+                            </tr>
+                            <tr>
+                                <td><span class="code">&lt;header&gt;</span></td>
+                                <td>Header</td>
+                                <!-- <td></td> -->
+                                <td>Important info, top of page</td>
+                            </tr>
+                            <tr>
+                                <td><span class="code">&lt;main&gt;</span></td>
+                                <td>Main</td>
+                                <!-- <td></td> -->
+                                <td>Primary content of page</td>
+                            </tr>
+                            <tr>
+                                <td><span class="code">&lt;footer&gt;</span></td>
+                                <td>Footer</td>
+                                <!-- <td></td> -->
+                                <td>Info after content, bottom of page</td>
+                            </tr>
+                            <tr>
+                                <td><span class="code">&lt;nav&gt;</span></td>
+                                <td>Navigation</td>
+                                <!-- <td></td> -->
+                                <td>Can go into header, footer, or be separate (use lists for content)</td>
+                            </tr>
+                            <tr>
+                                <td><span class="code">&lt;title&gt;</span></td>
+                                <td>Title</td>
+                                <!-- <td></td> -->
+                                <td><span class="metadata">(Metadata)</span> Name of page, in <span class="code">&lt;head&gt;</span></td>
+                            </tr>
+                            <tr>
+                                <td><span class="code">&lt;link&gt;</span></td>
+                                <td>Link</td>
+                                <!-- <td></td> -->
+                                <td><span class="metadata">(Metadata)</span> Links CSS document to HTML; requires <br><span class="code">href="..."</span> <span class="code">type="text/CSS"</span> <span class="code">rel="stylesheet"</span> attributes</td>
+                            </tr>
+                            <tr>
+                                <td><span class="code">&lt;article&gt;</span></td>
+                                <td>Article</td>
+                                <!-- <td></td> -->
+                                <td>Independent units of content (individual blog post; comments)</td>
+                            </tr>
+                            <tr>
+                                <td><span class="code">&lt;aside&gt;</span></td>
+                                <td>Aside</td>
+                                <!-- <td></td> -->
+                                <td>Secondary content</td>
+                            </tr>
+                            <tr>
+                                <td><span class="code">&lt;section&gt;</span></td>
+                                <td>Section</td>
+                                <!-- <td></td> -->
+                                <td>Series of related content pieces</td>
+                            </tr>
+                            <tr>
+                                <td><span class="code">&lt;menu&gt;</span></td>
+                                <td>Menu</td>
+                                <!-- <td></td> -->
+                                <td>Toolbar of buttons/tools (use <span class="code">&lt;list&gt;</span> for content)</td>
+                            </tr>
+                        </tbody>
+                    </table>    
+                </article> 
+                <article class="attributes">
+                    <h2>Attributes</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Attribute</td>
+                                <td>Name</td>
+                                <!-- <td>Requires?</td> -->
+                                <td>Description</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="code">href="..."</span></td>
+                                <td>Hyperlink Reference</td>
+                                <td>Used in <span class="code">&lt;a&gt;</span> tags</td>
+                            </tr>
+                            <tr>
+                                <td><span class="code">src="..."</span></td>
+                                <td>Source</td>
+                                <td>Used to identify the source of all media elements</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </article>
+                <article class="text">
+                    <h2>Text</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Tag</td>
+                                <td>Name</td>
+                                <!-- <td>Requires?</td> -->
+                                <td>Description</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="code">&lt;h1&gt;</span></td>
+                                <td>Header 1</td>
+                                <!-- <td></td> -->
+                                <td>Page title; most important info; only one per page</td>
+                            </tr>
+                            <tr>
+                                <td><span class="code">&lt;h2&gt;</span> - <span class="code">&lt;h6&gt;</span></td>
+                                <td>Header 2 - Header 6</td>
+                                <!-- <td></td> -->
+                                <td>Content sub-headings; must be nested in decreasing order; can't skip numbers</td>
+                            </tr>
+                            <tr>
+                                <td><span class="code">&lt;a&gt;</span></td>
+                                <td>Anchor</td>
+                                <!-- <td></td> -->
+                                <td>Hyperlink; requires <span class="code">href="..."</span> attribute</td>
+                            </tr>
+                            <tr>
+                                <td><span class="code">&lt;p&gt;</span></td>
+                                <td>Paragraph</td>
+                                <!-- <td></td> -->
+                                <td>Paragraph or general text</td>
+                            </tr>
+                            <tr>
+                                <td><span class="code">&lt;cite&gt;</span></td>
+                                <td>Citation</td>
+                                <!-- <td></td> -->
+                                <td>Use for citing source of quotations, URL, book, movie title</td>
+                            </tr>
+                            <tr>
+                                <td><span class="code">&lt;blockquote&gt;</span></td>
+                                <td>Block quote</td>
+                                <!-- <td>Citation via <span class="code">&lt;cite&gt;</span></td> -->
+                                <td>Large, standalone quote, often in middle of article</td>
+                            </tr>
+                            <tr>
+                                <td><span class="code">&lt;em&gt;</span></td>
+                                <td>Emphasized</td>
+                                <!-- <td></td> -->
+                                <td>Slightly more important text; screen readers will change voice; use CSS instead if only styling</td>
+                            </tr>
+                            <tr>
+                                <td><span class="code">&lt;strong&gt;</span></td>
+                                <td>Strong</td>
+                                <!-- <td></td> -->
+                                <td>Much more important text; screen readers will change voice; use CSS instead if only styling</td>
+                            </tr>
+                            <tr>
+                                <td><span class="code">&lt;address&gt;</span></td>
+                                <td>Address</td>
+                                <!-- <td>Use <span class="code">&lt;br&gt;</span> for line break in address</td> -->
+                                <td>Contact information (address, email, telephone)</td>
+                            </tr>
+                            <tr>
+                                <td><span class="code">&lt;br&gt;</span></td>
+                                <td>Break</td>
+                                <!-- <td></td> -->
+                                <td>Use to create a meaningful line break (as in an <span class="code">&lt;address&gt;</span>); use CSS instead if only styling</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </article>
+                <article class="image-media">
+                    <h2>Image & Media Tags</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Tag</td>
+                                <td>Name</td>
+                                <!-- <td>Required Attributes</td> -->
+                                <td>Description</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="code">&lt;img&gt;</span></td>
+                                <td>Image</td>
+                                <!-- <td></td> -->
+                                <td>Photo or picture; requires <span class="code">src="..."</span> and <span class="code">alt="..."</span> attributes</td>
+                            </tr>
+                            <tr>
+                                <td><span class="code">&lt;video&gt;</span></td>
+                                <td>Video</td>
+                                <!-- <td><span class="code">src="..."</span></td>   -->
+                                <td>Video content; requires <span class="code">src="..."</span> and <span class="code">alt="..."</span> attributes</td>
+                            </tr>
+                            <tr>
+                                <td><span class="code">&lt;audio&gt;</span></td>
+                                <td>Audio</td>
+                                <!-- <td><span class="code">src="..."</span></td> -->
+                                <td>Audio content; requires <span class="code">src="..."</span> and <span class="code">alt="..."</span> attributes</td>
+                            </tr>
+                            <tr>
+                                <td><span class="code">&lt;embed&gt;</span></td>
+                                <td>Embedded</td>
+                                <!-- <td><span class="code">src="..."</span></td> -->
+                                <td>Any embedded media content; good for a gif; requires <span class="code">src="..."</span> and <span class="code">alt="..."</span> attributes</td>
+                            </tr>
+                            <tr>
+                                <td><span class="code">&lt;figure&gt;</span></td>
+                                <td>Figure</td>
+                                <!-- <td><span class="code">src="..."</span></td> -->
+                                <td>Wrapper for any self-contained media; usually contains <span class="code">&lt;figcaption&gt;</span> as child element</td>
+                            </tr>
+                            <tr>
+                                <td><span class="code">&lt;figcaption&gt;</span></td>
+                                <td>Figure Caption</td>
+                                <!-- <td></td> -->
+                                <td>Must be child of <span class="code">&lt;figure&gt;</span></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </article>
+                <aside>
+                    <p>Using semantic tags helps to define the structure of the webpage, improve the browser's ability 
+                        to interpret content, and increase accessibility.</p>
+                </aside>  
+
+<!-- Still to include: <ul>, <ol>, <li>, attributes table, including opening in new window, video controls -->
+
+            </section>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>

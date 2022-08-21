@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 40px;
+    /* font-family: 'Aboreto', cursive;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Raleway', sans-serif; 
+    font-family: 'Cutive Mono', monospace;*/
+    background-color: rgb(200, 200, 200);
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    padding: 30px;
+    font-family: "Aboreto", cursive;
+}
+
+h2 {
+    font-size: 35px;
+    padding: 20px;
+    margin: 30px;
+    margin-top: 55px;
+    font-family: "Aboreto", cursive;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(214, 213, 213);
+    border-radius: 40px;
+    text-align: center;
+}
+
+cite {
+    display: block;
+    font-size: larger;
+    font-family: 'Nanum Myeongjo', serif;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+a:hover {
+    color: goldenrod;
+}
+
+nav {
+    height: auto;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding-right: 20px;
+    font-family: "Nanum Me"
+}
+
+main {
+
+}
+
+li {
+    list-style: none;
+    font-family: "Raleway", sans-serif;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+table {
+    background-color: rgb(235, 232, 232);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    font-family: "Dosis", sans-serif;
+    font-size: larger;
+}
+
+thead td {
+    padding: 15px;
+    margin: 15px;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+tbody td {
+    padding: 6px 15px;
+    margin: 6px 15px;
+    border-top: 1px solid rgb(170, 169, 169);
+    border-right: 1px solid rgb(170, 169, 169);
+}
+
+aside p {
+    font-size: 45px;
+    font-family: "Dosis", sans-serif;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 50px;
+    opacity: 0.7;
+    font-style: italic;
+    text-align: center;
+}
+
+span.code {
+    font-family: "Cutive Mono", monospace;
+    font-size: smaller;
+    background-color: white;
+    color: rgb(172, 42, 42);
+    padding: 2px 4px;
+    margin: 3px 5px;
+    font-weight: bolder;
+    border-radius: 3px;
+}
+
+.metadata {
+    font-style: italic;
+    margin: 0 8px 0 0;
+}
